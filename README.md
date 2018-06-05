@@ -49,7 +49,7 @@
 > \" => "  , \' => '표시  , \n => 줄 바꿈  , \t => 들여쓰기  , \\ => / , \0 => null
 > /r => 맨앞으로 넘기기 , \u {n} => {24} => $ , {2665} => 하트 , {1f4%} => 진한 하트 
 
-isEmpty => 비어있는가? 맞으면 true  
+isEmpty => 비어있는지? 맞으면 true  
 
 let A:[Character] = ["c","a","t"]  
 let b = String(A)  
@@ -61,7 +61,6 @@ let greeting = "Guten Tag!"
 >   
 > let index = greeting.index(greeting.startIndex, offset By: 7)
 > greeting[Index] => a
-
 
 for index in greeting.Indices {
 	print("\(greeting[index])", terminater: "")  
