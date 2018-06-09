@@ -17,6 +17,11 @@
 
 > CATransition 으로 느리게 변경 효과
 
+### chapter2 <Checklists>
+
+init : 앱 시작 중에 스토리보드에서 로드할 때 발생
+Auto-enable Retrun Key : 텍스트가 하나라도 있어야 완료 버튼아 눌린다
+
 ---
 
 ### Basic Operators
@@ -65,6 +70,15 @@ let greeting = "Guten Tag!"
 for index in greeting.Indices {
 	print("\(greeting[index])", terminater: "")  
 } => " Guten Tag!"
+
+scene.hasPrefix-문자열 앞 조사-("Act 1") => Act 1 이 있는 문장을 찾는다
+hasSuffix - 문자열 뒷 부분 조사
+
+.components: 결과로 배열을 리턴해준다 (String으로)
+separated By: ex) 1. ""                     빼고 결과 출력
+                             2. ["+", "-"] 
+
+
 
 ---
 
